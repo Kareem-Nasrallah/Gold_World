@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gold World</title>
+    <script defer src="gold_world.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Kareem-Nasrallah">
+    <link rel="stylesheet" href="gold_world.css">
+</head>
+<body>
+    <header><h2>gold world</h2></header>
+    <div class="mainline">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">News</a>
+            <a href="#">About</a>
+            <a href="#" class="active">Gold Price</a>
+            <a href="#">Shopping Cart</a>
+        </nav>
+        <div id="logo"><a href="#">gold world</a></div>
+    </div>
+    <main>
+        <div class="container">
+            <div class="everyinput">
+                <input type="number" name="#" onkeyup="gram21()" id="in21" class="inputs count" placeholder="Local Market 21 price" min="0">
+                <input type="number" name="#" onkeyup="gram21()" id="gram" class="inputs count" placeholder="Gram" min="0">
+                <input type="number" name="#" disabled id="ghprice" placeholder="EGP" >
+            </div>
+            <div class="everyinput">
+                <input type="number" name="#" id="goldenPound" onkeyup="goldenPoundprice()" class="inputs" placeholder="One Pound Price" min="0">
+                <input type="number" name="#" id="poundcount" onkeyup="goldenPoundprice()" class="inputs" placeholder="Pound Count" min="0">
+                <input type="number" name="#" disabled id="GPprice" placeholder="EGP">
+            </div>
+            <div class="totalprice">
+                <input type="number" name="#" disabled id="totalprice" placeholder="Total Price" >
+            </div>
+        </div>
+
+        <h3 id="save">Record</h3>
+        <footer>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            <span>21 Price</span>
+                        </th>
+                        <th>
+                            <span>One Pound Price</span>
+                        </th>
+                        <th>
+                            <span>All Gold Price</span>
+                        </th>
+                        <th>
+                            <span>At Time</span>
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </footer>
+    </main>
+</body>
+</html>
